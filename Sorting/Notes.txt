@@ -1,0 +1,8 @@
+Sorting in java
+	Arrays.sort();
+		For primitives[]
+		For Object[]
+	Collections.sort();
+		For List Collection
+	
+		
