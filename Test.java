@@ -35,13 +35,13 @@ static Scanner scan = new Scanner(System.in);
             return;
         }
         
-        int [] arr = new int[mat.length];
+        ArrayList<pair> arr = new ArrayList(mat.length);
         
         for(int i=0;i<mat.length;i++)
-            arr[i] = mat[i][c];
+            arr.add(new pair(mat[i][c], i));
             
-        Arrays.sort(arr);
-        
+        Collections.sort((p1, p2) -> p1.compareTo(p2));
+
         int[][] res = new
     }
     */
