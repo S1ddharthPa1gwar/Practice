@@ -48,7 +48,7 @@ static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
 //        System.out.println("give me a bottle of rum!");
         problem1();
-        int col = scan.nextInt();
-        problem2(col);
+//         int col = scan.nextInt();
+//         problem2(col);
     }
 }
